@@ -175,7 +175,7 @@ EOF
     jinfos "jdk" $jvm_base$j2se_name/bin/ $oracle_bin_jdk
     if [ "${DEB_BUILD_ARCH:0:3}" != "arm" ]; then
         for b in $browser_plugin_dirs;do
-            echo "plugin iceweasel-javaplugin.so $jvm_base$j2se_name/jre/lib/$DEB_BUILD_ARCH/libnpjp2.so"
+            echo "plugin ${b}-javaplugin.so $jvm_base$j2se_name/jre/lib/$DEB_BUILD_ARCH/libnpjp2.so"
         done
     fi
 }
