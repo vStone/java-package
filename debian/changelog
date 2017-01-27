@@ -1,3 +1,12 @@
+java-package (0.62+nmu3) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Fixed --jce-policy (Closes: #843172)
+  * Fixed server-jre policytool location
+  * Fixed no alternatives for iceweasel-javaplugin.so (Closes: #779725)
+
+ -- Jan Vansteenkiste <jan@vstone.eu>  Mon, 07 Nov 2016 09:31:18 +0000
+
 java-package (0.62) unstable; urgency=medium
 
   * Team upload.
