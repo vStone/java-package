@@ -77,7 +77,7 @@ EOF
       j2se_remove=oracle_server_j2re_remove
       j2se_jinfo=oracle_server_j2re_jinfo
       j2se_control=oracle_server_j2re_control
-      oracle_jre_bin_hl="java keytool orbd pack200 rmid rmiregistry servertool tnameserv unpack200 policytool"
+      oracle_jre_bin_hl="java keytool orbd pack200 rmid rmiregistry servertool tnameserv unpack200 policytool jar"
       oracle_jre_bin_jre="policytool"
       oracle_jre_lib_hl="jexec"
       j2se_package="$j2se_vendor-java$j2se_release-server-jre"
